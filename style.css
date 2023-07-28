@@ -248,7 +248,7 @@ hr {
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  margin: 100px;
+  margin: 0 100px 0 0;
 }
 .carousel::-webkit-scrollbar {
   display: none;
@@ -2129,6 +2129,19 @@ header .header-ul .footer-header-li .header-a:hover {
       display: flex;
       padding: 60px 0 0 0;
       align-items: center;
+  }
+  .header__image__container {
+    position: relative;
+    min-height: 1000px;
+    height: 100%;
+    background-image: linear-gradient(
+        rgba(44, 56, 85, 0.8),
+        rgba(100, 125, 187, 0.1)
+      ),
+      url("image/Back.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
