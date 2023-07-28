@@ -245,10 +245,10 @@ hr {
   grid-auto-columns: calc((100% / 3) - 12px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 16px;
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
+  margin: 100px;
 }
 .carousel::-webkit-scrollbar {
   display: none;
@@ -378,6 +378,15 @@ hr {
 
 /*popular-destinations*/
 
+
+  .popular-destinations {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1700px;
+    padding: 180px 50px 50px 50px;
+  }
+
 .destinations-img-card-full {
   height: auto;
   position: relative;
@@ -447,8 +456,8 @@ hr {
   line-height: normal;
 }
 .Destinations-wrapper {
-  display: flex;
-  max-width: 1200px;
+
+  max-width: 100%;
   position: relative;
 }
 .destiantions-cur {
@@ -1128,13 +1137,13 @@ header .header-ul .footer-header-li .header-a:hover {
 /*end*/
 @media screen and (max-width: 3000px) {
   .destiantions-cur {
-    margin: 10px 0 0 25%;
+    margin: 10px 0 0 10%;
   }
 }
 
 @media screen and (max-width: 2000px) {
   .destiantions-cur {
-    margin: 10px 0 0 13%;
+    margin: 10px 0 0 10%;
   }
 }
 
